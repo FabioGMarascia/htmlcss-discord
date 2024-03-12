@@ -14,18 +14,23 @@
 
 /* HEADER */
 header {
-  background-color: aquamarine;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  min-height: 55rem;
 }
 
 nav {
+  color: white;
+
   justify-content: space-between;
+  align-items: center;
   width: 70%;
   margin: 0 auto;
   padding: 0.5rem;
 }
 
 .small-column {
-  background-color: goldenrod;
+  color: black;
   width: 15%;
   padding: 0.5rem;
 }
@@ -34,21 +39,51 @@ nav {
   text-align: right;
 }
 
+.big-column > span {
+  padding: 0 1.5rem;
+}
+
 .big-column {
-  background-color: goldenrod;
   padding: 0.5rem;
   width: 70%;
   text-align: center;
 }
 
-.big-logo-container {
-  background-color: blue;
+h1 {
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+
+.big-logo > p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.big-logo button {
+  margin: 2rem 1rem;
+  padding: 2rem 0.5rem;
+  border-style: none;
+  padding: 0.8rem 1rem;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
 }
 
 .big-logo {
-  background-color: fuchsia;
-  width: 60%;
-  min-height: 25rem;
+  margin-top: 15rem;
+  width: 70rem;
+  color: white;
+  text-align: center;
+}
+
+.small-column button {
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+  border-style: none;
 }
 
 /* MAIN */
@@ -58,7 +93,7 @@ nav {
   padding: 3rem 0;
 }
 
-.blue-column {
+.column-container .blue-column {
   background-color: rgb(0, 89, 255);
   width: 40%;
   min-height: 29rem;
