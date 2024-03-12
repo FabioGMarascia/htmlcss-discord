@@ -110,7 +110,7 @@ h3 {
   background-color: lightgray;
 }
 
-.green-box {
+.main-bottom-box {
   text-align: center;
 }
 
@@ -118,7 +118,7 @@ h3 {
   color: white;
   background-color: #7289da;
 }
-.green-box h2 {
+.main-bottom-box h2 {
   padding-bottom: 2rem;
 }
 
@@ -136,15 +136,19 @@ footer {
   padding: 3rem 0 3rem 0;
 }
 
+.ita-img {
+  width: 1.3rem;
+}
+
 .social-column {
   width: 15rem;
 }
 
-.green-column {
+.first-footer-container-right-column {
   width: 47%;
 }
 
-.small-green-column {
+.first-footer-container-small-column {
   width: calc(100% / 4);
   line-height: 2rem;
   padding-left: 2rem;
@@ -152,19 +156,14 @@ footer {
 
 .second-footer-container {
   justify-content: center;
-  align-items: flex-end;
 }
 
-.aquamarine-box {
+.footer-last-line {
   width: 70%;
   justify-content: space-between;
   align-items: center;
   border-top: 1px solid white;
   padding: 1rem 0;
-}
-
-.ita-img {
-  width: 1.3rem;
 }
 
 h3.disc-color {
@@ -175,7 +174,7 @@ h3.disc-color {
   padding: 1rem 1rem 0 0;
 }
 
-.aquamarine-box button {
+.footer-last-line button {
   padding: 0.5rem 0.8rem;
   border-radius: 25px;
   border-style: none;
