@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .flex-container {
   display: flex;
 }
 
-.border {
-  border: 2px dashed black;
+.disc-color {
+  color: #7289da;
 }
 
 /************************************* HEADER *************************************/
@@ -17,7 +18,6 @@ header {
   background-image: url(../img/jumbo.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  min-height: 50rem;
 }
 
 nav {
@@ -29,18 +29,20 @@ nav {
   padding: 0.5rem;
 }
 
-.small-column {
+.nav-small-column {
   color: black;
   width: 15%;
   padding: 0.5rem;
 }
 
-.right-column {
+.nav-small-right-column {
   text-align: right;
 }
 
-.big-column > span {
-  padding: 0 1.5rem;
+.nav-small-column button {
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+  border-style: none;
 }
 
 .big-column {
@@ -49,9 +51,19 @@ nav {
   text-align: center;
 }
 
+.big-column > span {
+  padding: 0 1.5rem;
+}
+
 h1 {
   font-size: 4rem;
   padding-bottom: 3rem;
+}
+
+.big-logo {
+  margin-top: 10%;
+  color: white;
+  text-align: center;
 }
 
 .big-logo > p {
@@ -59,7 +71,8 @@ h1 {
   line-height: 2rem;
 }
 
-.big-logo button {
+.big-logo button,
+.green-box button {
   margin: 2rem 1rem;
   padding: 2rem 0.5rem;
   border-style: none;
@@ -73,19 +86,6 @@ h1 {
   color: white;
 }
 
-.big-logo {
-  margin-top: 10%;
-  width: 70rem;
-  color: white;
-  text-align: center;
-}
-
-.small-column button {
-  padding: 0.5rem 0.8rem;
-  border-radius: 25px;
-  border-style: none;
-}
-
 /************************************* MAIN *************************************/
 .column-container {
   justify-content: center;
@@ -93,14 +93,14 @@ h1 {
   padding: 3rem 0;
 }
 
-.img-column {
-}
-
 .txt-column {
   width: 19rem;
 }
 h2 {
   font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
 }
 .txt-column p {
   padding-top: 2rem;
@@ -114,48 +114,71 @@ h2 {
   text-align: center;
 }
 
+.btn-discord {
+  color: white;
+  background-color: #7289da;
+}
+.green-box h2 {
+  padding-bottom: 2rem;
+}
+
 /************************************* FOOTER *************************************/
+footer {
+  color: white;
+}
+
 .black {
   background-color: #222;
 }
 
 .first-footer-container {
   justify-content: center;
-  padding: 1rem 0 3rem 0;
+  padding: 3rem 0 3rem 0;
 }
 
-.crimson-column {
-  width: 23%;
-  min-height: 33rem;
-  background-color: crimson;
+.social-column {
+  width: 15rem;
 }
 
 .green-column {
   width: 47%;
-  min-height: 33rem;
-  background-color: aqua;
 }
 
 .small-green-column {
   width: calc(100% / 4);
-  border: 2px dashed white;
+  line-height: 2rem;
+  padding-left: 2rem;
 }
 
 .second-footer-container {
   justify-content: center;
   align-items: flex-end;
-  min-height: 4rem;
-  border-bottom: 1px solid white;
 }
 
 .aquamarine-box {
   width: 70%;
-  min-height: 3rem;
-  background-color: aquamarine;
   justify-content: space-between;
   align-items: center;
+  border-top: 1px solid white;
+  padding: 1rem 0;
 }
 
-.footer-line {
-  background-color: coral;
+.ita-img {
+  width: 1.3rem;
+}
+
+h3.disc-color {
+  padding-bottom: 1rem;
+}
+
+.social-icon i {
+  padding: 1rem 1rem 0 0;
+}
+
+.aquamarine-box button {
+  padding: 0.5rem 0.8rem;
+  border-radius: 25px;
+  border-style: none;
+  background-color: #7289da;
+  color: white;
 }
