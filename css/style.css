@@ -122,6 +122,14 @@ h3 {
   padding-bottom: 2rem;
 }
 
+.wave,
+.wave-rotate {
+  opacity: 0.1;
+}
+.wave-rotate {
+  transform: rotate(180deg);
+}
+
 /************************************* FOOTER *************************************/
 footer {
   color: white;
