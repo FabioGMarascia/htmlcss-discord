@@ -125,6 +125,7 @@ h3 {
 .wave,
 .wave-rotate {
   opacity: 0.1;
+  display: block;
 }
 .wave-rotate {
   transform: rotate(180deg);
