@@ -26,7 +26,7 @@ nav {
   align-items: center;
   width: 70%;
   margin: 0 auto;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 .nav-small-column {
@@ -63,7 +63,7 @@ h1 {
 .big-logo {
   color: white;
   text-align: center;
-  padding: 10% 0 10rem 0;
+  padding: 8% 0 10rem 0;
 }
 
 .big-logo > p {
@@ -99,11 +99,24 @@ h1 {
 h2 {
   font-size: 2.5rem;
 }
+
 h3 {
   font-size: 2rem;
 }
+
+h3.main-last-title {
+  margin-top: 4rem;
+  font-size: 2rem;
+  background-image: url(../img/stars.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 5rem;
+  padding-top: 2rem;
+}
 .txt-column p {
   padding-top: 2rem;
+  line-height: 1.5rem;
 }
 
 .lightgray {
@@ -172,7 +185,7 @@ footer {
   width: 70%;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid white;
+  border-top: 1px solid #7289da;
   padding: 1rem 0;
 }
 
